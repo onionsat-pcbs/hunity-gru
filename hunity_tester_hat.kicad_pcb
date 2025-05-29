@@ -123,7 +123,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "PRODUCTION/hunity-gru-v1/")
+			(outputdirectory "production/hunity-gru-v1/")
 		)
 	)
 	(net 0 "")
@@ -4189,6 +4189,126 @@
 		(layer "Edge.Cuts")
 		(uuid "8a362ac8-836e-4c8e-b500-7034f4d1dc9f")
 	)
+	(gr_text "GND"
+		(at 103.619 36.848 -90)
+		(layer "F.SilkS")
+		(uuid "0c2f9780-132e-4fb4-9761-27e479679201")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.175)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "EN4"
+		(at 93.459 36.848 -90)
+		(layer "F.SilkS")
+		(uuid "0e67dfe2-49a0-4d2e-aa97-314e54a7d8c9")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.175)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "EN2"
+		(at 98.539 36.848 -90)
+		(layer "F.SilkS")
+		(uuid "33c76fb4-5bae-4a95-9d2c-e9e1bdbe890c")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.175)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "EN6"
+		(at 88.379 36.848 -90)
+		(layer "F.SilkS")
+		(uuid "586b6b95-3fdd-49ee-9d8b-fb3fddeee43d")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.175)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "SDA"
+		(at 106.159 36.848 -90)
+		(layer "F.SilkS")
+		(uuid "82b14509-2f3f-43e7-b7dc-c55bf3949aa9")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.175)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "EN5"
+		(at 90.919 36.848 -90)
+		(layer "F.SilkS")
+		(uuid "95c195f4-d56a-4c67-b8e8-fcbbc43a6fb4")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.175)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "SCL"
+		(at 108.699 36.848 -90)
+		(layer "F.SilkS")
+		(uuid "9bd5c0c0-6c92-4d1c-8745-8fe9c7a47b35")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.175)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "5V"
+		(at 111.239 36.848 -90)
+		(layer "F.SilkS")
+		(uuid "ab3195be-ad2b-45ff-91d9-02925c39af3d")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.175)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "EN1"
+		(at 101.079 36.848 -90)
+		(layer "F.SilkS")
+		(uuid "b7aa9398-3f1b-4189-a915-68077a6c5b76")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.175)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "EN3"
+		(at 95.999 36.848 -90)
+		(layer "F.SilkS")
+		(uuid "ff7325ce-aff6-4d56-9ee8-62b185dd0c20")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.175)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "EN3"
 		(at 95.999 31.848 270)
 		(layer "B.SilkS")
@@ -4216,7 +4336,7 @@
 		)
 	)
 	(gr_text "EN1"
-		(at 101.029 81.758 270)
+		(at 101.079 81.758 270)
 		(layer "B.SilkS")
 		(uuid "2f681bdc-2070-45d6-9019-1c456e90786c")
 		(effects
@@ -4268,7 +4388,7 @@
 		)
 	)
 	(gr_text "EN5"
-		(at 90.869 81.758 270)
+		(at 90.919 81.758 270)
 		(layer "B.SilkS")
 		(uuid "3f43ae20-355b-4054-b203-db24600bb465")
 		(effects
@@ -4294,7 +4414,7 @@
 		)
 	)
 	(gr_text "EN4"
-		(at 93.409 81.758 270)
+		(at 93.459 81.758 270)
 		(layer "B.SilkS")
 		(uuid "5ffee9c9-51da-4356-9ae7-a70601b30903")
 		(effects
@@ -4320,7 +4440,7 @@
 		)
 	)
 	(gr_text "EN6"
-		(at 88.329 81.758 270)
+		(at 88.379 81.758 270)
 		(layer "B.SilkS")
 		(uuid "7d00f491-4b03-4a9f-bdf2-6d61176e6951")
 		(effects
@@ -4372,7 +4492,7 @@
 		)
 	)
 	(gr_text "EN2"
-		(at 98.489 81.758 270)
+		(at 98.539 81.758 270)
 		(layer "B.SilkS")
 		(uuid "ab2458b7-0218-479e-b1c6-9ead7e6bda6d")
 		(effects
@@ -4398,7 +4518,7 @@
 		)
 	)
 	(gr_text "EN3"
-		(at 95.949 81.758 270)
+		(at 95.999 81.758 270)
 		(layer "B.SilkS")
 		(uuid "cd68b5a1-85eb-4aa4-b47e-0272c4ef2aa5")
 		(effects
@@ -5248,6 +5368,22 @@
 		)
 	)
 	(group ""
+		(uuid "967290dd-7ab1-483b-a62e-bb567433dd00")
+		(members "24037435-b97a-4c99-af7f-02b404bce926" "29120e9b-3791-4951-8995-e76d7ab1722b"
+			"5d17efae-bfdb-471d-b80e-c30c5ae51394" "814c658f-bc6e-438c-ba79-5a6b197a740c"
+			"96197d9f-54eb-4004-88b3-39ed4ef8f141" "e0beb4b0-b595-4be0-ab92-be40ad4a333f"
+		)
+	)
+	(group ""
+		(uuid "2a2b67eb-6660-4779-a089-2916bd02f283")
+		(members "0c2f9780-132e-4fb4-9761-27e479679201" "0e67dfe2-49a0-4d2e-aa97-314e54a7d8c9"
+			"33c76fb4-5bae-4a95-9d2c-e9e1bdbe890c" "586b6b95-3fdd-49ee-9d8b-fb3fddeee43d"
+			"82b14509-2f3f-43e7-b7dc-c55bf3949aa9" "95c195f4-d56a-4c67-b8e8-fcbbc43a6fb4"
+			"9bd5c0c0-6c92-4d1c-8745-8fe9c7a47b35" "ab3195be-ad2b-45ff-91d9-02925c39af3d"
+			"b7aa9398-3f1b-4189-a915-68077a6c5b76" "ff7325ce-aff6-4d56-9ee8-62b185dd0c20"
+		)
+	)
+	(group ""
 		(uuid "9e4d78d5-0262-4329-ae72-fd3d52f14078")
 		(members "21c9b76f-da66-40ac-b56b-bedeab6120e7" "294bdcaa-994f-4d2e-968a-68d437abefdc"
 			"29d59118-20fd-4efd-b46e-7cf233bfa608" "46da1f73-3198-4b53-bb90-59d5e336f835"
@@ -5261,6 +5397,22 @@
 	(group ""
 		(uuid "a73e0839-652d-4b13-b199-dd7480f79779")
 		(members "8cc42729-653e-4799-9517-bc74eb430522" "9e4d78d5-0262-4329-ae72-fd3d52f14078")
+	)
+	(group ""
+		(uuid "b003f9f9-970c-421b-8ab4-42056fea23e7")
+		(members "02938167-1618-456a-9343-270e5f0d3176" "0445689e-35dd-4de4-ad22-3226bdc666ea"
+			"39894395-d0e6-4ac3-905f-05fca4e4df4a" "3e9495e7-9d1a-4a9f-990c-6cddcd951829"
+			"3f2787d4-1927-42af-9c60-10609ffbb882" "5af3823b-0527-4bd2-9bec-0b4aa473a718"
+			"6c70817a-d7d4-49a6-bdeb-f693c246035f" "92a2a460-30d4-4281-bb47-6b5f9359cbb2"
+			"9a8895b5-f84b-49e7-9271-863e736a4141" "b9435541-e806-4274-ac8e-e79dc3d4c362"
+		)
+	)
+	(group ""
+		(uuid "cac10a28-90ce-4cb6-9f50-2b22f6d0db2a")
+		(members "2f681bdc-2070-45d6-9019-1c456e90786c" "3f43ae20-355b-4054-b203-db24600bb465"
+			"5ffee9c9-51da-4356-9ae7-a70601b30903" "7d00f491-4b03-4a9f-bdf2-6d61176e6951"
+			"ab2458b7-0218-479e-b1c6-9ead7e6bda6d" "cd68b5a1-85eb-4aa4-b47e-0272c4ef2aa5"
+		)
 	)
 	(embedded_fonts no)
 )
