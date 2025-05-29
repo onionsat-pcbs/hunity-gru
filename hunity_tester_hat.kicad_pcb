@@ -112,6 +112,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -120,9 +121,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "PRODUCTION/hunity-gru-v1/")
 		)
 	)
 	(net 0 "")
@@ -4214,6 +4215,19 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "EN1"
+		(at 101.029 81.758 270)
+		(layer "B.SilkS")
+		(uuid "2f681bdc-2070-45d6-9019-1c456e90786c")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.175)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "EN4"
 		(at 93.459 31.848 270)
 		(layer "B.SilkS")
@@ -4253,6 +4267,19 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "EN5"
+		(at 90.869 81.758 270)
+		(layer "B.SilkS")
+		(uuid "3f43ae20-355b-4054-b203-db24600bb465")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.175)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "5V"
 		(at 111.239 31.848 270)
 		(layer "B.SilkS")
@@ -4266,10 +4293,36 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "EN4"
+		(at 93.409 81.758 270)
+		(layer "B.SilkS")
+		(uuid "5ffee9c9-51da-4356-9ae7-a70601b30903")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.175)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "EN6"
 		(at 88.379 31.848 270)
 		(layer "B.SilkS")
 		(uuid "6c70817a-d7d4-49a6-bdeb-f693c246035f")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.175)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "EN6"
+		(at 88.329 81.758 270)
+		(layer "B.SilkS")
+		(uuid "7d00f491-4b03-4a9f-bdf2-6d61176e6951")
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4318,10 +4371,36 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "EN2"
+		(at 98.489 81.758 270)
+		(layer "B.SilkS")
+		(uuid "ab2458b7-0218-479e-b1c6-9ead7e6bda6d")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.175)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "SCL"
 		(at 108.699 31.848 270)
 		(layer "B.SilkS")
 		(uuid "b9435541-e806-4274-ac8e-e79dc3d4c362")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.175)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "EN3"
+		(at 95.949 81.758 270)
+		(layer "B.SilkS")
+		(uuid "cd68b5a1-85eb-4aa4-b47e-0272c4ef2aa5")
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -4772,14 +4851,6 @@
 		(layer "F.Cu")
 		(net 7)
 		(uuid "b0c6fc8d-a3b0-41b5-979b-757fd9840823")
-	)
-	(segment
-		(start 106.156 76.389)
-		(end 106.159 76.386)
-		(width 1)
-		(layer "F.Cu")
-		(net 7)
-		(uuid "c97ded1f-d611-4311-81b3-31463f5c3a36")
 	)
 	(segment
 		(start 116.616 66.244)
